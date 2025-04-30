@@ -1,1 +1,5 @@
-CLIENT_SECRET = #Add key, Remove sample in filename
+CLIENT_ID = APP-B391E9BD-31C5-402A-A774-43F37055B6FB
+CLIENT_SECRET = ***
+DOTWELLKNOWN = https://proxy.sram.surf.nl/.well-known/openid-configuration
+REDIRECT_URI = http://localhost:8084/authorized/
+SERVER_NAME = localhost:8084
