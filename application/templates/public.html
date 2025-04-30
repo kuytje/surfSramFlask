@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+{% if logged_in %}
+    <p>You are logged in and you can go to the <br/><a href='/private'>private</a> page</p>
+{% endif %}
+
+<p>Welcome!<br/><a href='/login'>Login here</a></p>
+
+{% endblock %}

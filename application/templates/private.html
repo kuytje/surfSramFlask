@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<p>Welcome, {{ userinfo['name'] }}!</p>
+<p>Your email is {{ userinfo['email'] }}</p>
+<p>You may now access the private page <a href='/private'>here</a></p>
+<p><a href="/logout">Logout</a></p>
+
+{% endblock %}
