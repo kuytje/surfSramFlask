@@ -29,15 +29,16 @@ surfSramFlask/
 ```bash
 git clone https://github.com/kuytje/surfSramFlask.git
 cd surfSramFlask
-
-python run_application.py
 ```
 
 2. Create and activate the Conda environment:
 
 ```bash
-conda env create -f conda_env.yaml
-conda activate surf_sram_env
+"${SHELL}" <(curl -L micro.mamba.pm/install.sh)
+source ~/.bashrc
+
+micromamba env create -f conda_env.yaml
+micromamba activate sramPythonExample
 ```
 
 3. Set environment variables (if needed), then run the application:
